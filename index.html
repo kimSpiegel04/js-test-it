@@ -31,6 +31,24 @@
     </div>
 
     <button onclick='showCode()' id='runBtn'>Run ></button>
+    <script>
 
+        //editor details
+        const editor=CodeMirror(document.getElementById('codeeditor'), {
+                mode: 'javascript',
+                theme: '3024-night',
+                lineNumbers: true
+            });
+
+        //displays code output in codeoutput div
+        //note: anything console.log'ged will show up as undefined and will be in the browser console
+        function showCode() {
+            var text = editor.getValue();
+            var output = eval(text);
+            console.log(output);
+            document.getElementById('codeoutput').innerHTML = output;
+        }
+
+    </script>
 </body>
 </html>
