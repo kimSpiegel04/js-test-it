@@ -1,0 +1,36 @@
+#textareas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#codeeditor{
+    width: 45%;
+}
+
+#codeoutput{
+    width: 45%;
+    background-color: #eee;
+    color: black;
+    padding: 4px 4px;
+}
+
+#runBtn{
+    margin-left: 41.5%;
+    margin-top: 5px;
+    width: 5em;
+    height: 2em;
+    border: none;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #29a19c;
+    color: #222831;
+    cursor: pointer;
+}
+
+#runBtn:active{
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+}
