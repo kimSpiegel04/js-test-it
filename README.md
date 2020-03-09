@@ -1,6 +1,8 @@
 # js-test-it
 Test your JavaScript in the browser: https://kimspiegel04.github.io/js-test-it/
 
+![code written in the code editor with the correct output in the output text area](https://github.com/kimSpiegel04/js-test-it/blob/master/sample.JPG)
+
 Built with CodeMirror
 
 Enter code in the code editor on the left of the screen. After pressing the 'Run >' button, the output will show up in the grey box on the right. 
